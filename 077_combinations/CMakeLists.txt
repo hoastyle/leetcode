@@ -4,4 +4,4 @@ project(077_combinations)
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -g")
 
-add_executable(main main.cpp solution.hpp)
+add_executable(${PROJECT_NAME} main.cpp solution.hpp)

@@ -5,4 +5,7 @@ project(leetcode)
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -g")
 
 # TODO: change to for each to add subdirectory automactically
+add_subdirectory(017_letter_combinations)
+add_subdirectory(039_combination_sum)
 add_subdirectory(077_combinations)
+add_subdirectory(216_combination_sum)
